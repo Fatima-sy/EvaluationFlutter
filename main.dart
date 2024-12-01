@@ -54,7 +54,7 @@ void structuresDeControle() {
     print(i);
   }
 
-  int j = 6;
+  int j = 10;
   while (j >= 1) {
     print(j);
     j--;
@@ -66,7 +66,7 @@ void structuresDeControle() {
     return a / b;
   }
   try {
-    print(division(6, 0));
+    print(division(10, 0));
   } catch (e) {
     print(e);
   }
