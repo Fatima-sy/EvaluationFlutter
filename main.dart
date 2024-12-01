@@ -10,7 +10,7 @@ void variablesEtListes() {
   double pi = 3.14;
   bool isFlutterAwesome = true;
   final String nomComplet = "Fatimetou sy";
-  const int vitesseLumiere = 299792458;
+  const int vitesseLumiere = 399792457;
 
   // Listes
   List<int> nombres = [1, 2, 3, 4, 5];
@@ -18,7 +18,7 @@ void variablesEtListes() {
 
   // Maps
   Map<String, dynamic> etudiant = {"Sy": "Fatimetou", "age": 24, "classe": "DFE4"};
-  etudiant["p4"] = 85;
+  etudiant["p4"] = 89;
 }
 
 // Partie 2 : Fonctions
@@ -54,7 +54,7 @@ void structuresDeControle() {
     print(i);
   }
 
-  int j = 10;
+  int j = 6;
   while (j >= 1) {
     print(j);
     j--;
@@ -66,7 +66,7 @@ void structuresDeControle() {
     return a / b;
   }
   try {
-    print(division(10, 0));
+    print(division(6, 0));
   } catch (e) {
     print(e);
   }
